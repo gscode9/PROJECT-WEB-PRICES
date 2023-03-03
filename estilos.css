@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Jost:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+* {
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Jost', sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F7F7F7;
+}
+
+header {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+
+header h1 {
+    margin-bottom: 15px;
+    color: #2b2e33;
+}
+
+.text {
+    color: #A3A8A7;
+    font-size: small;
+}
+
+header section {
+    margin-top: 45px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.contenedor-btn {
+    display: flex;
+    position: absolute;
+    width: 60%;
+    height: 40px;
+    margin-left: 20%;
+    background-color: white;
+    border-radius: 15px 0px 0px 15px;
+
+}
+
+header section .btn-1 {
+    color: #A3A8A7;
+    background: none;
+
+}
+
+section .btn-2 {
+    color: white;
+    background: #1C6EE8;
+    border-radius: 15px;
+}
+
+.grey-text {
+    color: #A3A8A7;
+    font-size: x-small;
+}
+
+.white-text {
+    color: rgb(232, 232, 232);
+    font-size: 0.7rem;
+    font-family: 'DM Sans', sans-serif;
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+}
+
+.centrado {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.btn-bill {
+    padding: 0px;
+    border: 0px;
+    width: 129px;
+    height: 40px;
+}
+
+.card-white {
+    width: 270px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.card-white article ul li {
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.card-blue {
+    width: 280px;
+    height: 460px;
+    background-color: #1266e3;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card-blue article ul li {
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+.fa-circle-check {
+    color: #1C6EE8;
+    margin-right: 5px;
+    font-size: 1em;
+}
+
+.posicion {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.posicion-1 {
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+
+.big-letters {
+    font-size: xx-large;
+}
+
+.color-pro {
+    color: white;
+}
+
+.tipo {
+    font-size: 1.2rem;
+    color: #2b2e33;
+}
+
+.tipo-pro {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.btn-white {
+    width: 175px;
+    height: 38px;
+    background-color: white;
+    border: 0px;
+    color: #1C6EE8;
+    border-radius: 11px;
+}
+
+.contenedor-descrip {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    margin-right: 15px;
+    margin-left: 15px;
+    background-color: #FBFBFB;
+    border-radius: 15px;
+}
+
+ul {
+    padding-left: 22px;
+    margin-bottom: 30px;
+}
+
+.btn-blue {
+    width: 175px;
+    height: 35px;
+    background-color: #1C6EE8;
+    border: 0px;
+    color: white;
+    border-radius: 11px;
+}
+
+.contenedor-descrip_white {
+    padding-top: 20px;
+    padding-bottom: 4px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 25px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.btn-trans {
+    border: 0px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.181);
+    font-size: x-small;
+    padding: 5px 15px;
+}
+
+.list-blue {
+    margin-bottom: 42px;
+}
+
+div .dolar {
+    position: absolute;
+    margin-left: 105px;
+}
+
+div .dolar-2 {
+    position: absolute;
+    margin-left: 114px;
+}
+
+.centrado-blue {
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 4px 0px 0px 0px;
+}
+
+.circulo {
+    background-color: rgba(255, 255, 255, 0.085);
+    border-radius: 45%;
+    height: 370px;
+    width: 280px;
+}
